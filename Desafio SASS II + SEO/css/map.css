@@ -1,0 +1,23 @@
+.container--grande {
+  width: 100%;
+  background-color: lightblue;
+  color: red;
+}
+
+.container--mediano {
+  width: 70%;
+  background-color: lightblue;
+  color: red;
+}
+
+.container--chico {
+  width: 35%;
+  background-color: lightblue;
+  color: red;
+}
+
+.container--extraChico {
+  width: 10%;
+  background-color: lightblue;
+  color: red;
+}

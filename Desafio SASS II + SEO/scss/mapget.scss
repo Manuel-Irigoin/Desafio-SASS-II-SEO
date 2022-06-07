@@ -1,0 +1,15 @@
+$ancho:(
+    grande:100%,
+    mediano:70%,
+    chico:35%,
+    extraChico:10%,
+);
+$detalles:(
+    colorPrincipal:blue,
+    borde:30px,
+);
+.containerEjemplo{
+    width:map-get($ancho, mediano);
+    background-color:map-get($detalles, colorPrincipal);
+    border:map-get($detalles, borde);
+}

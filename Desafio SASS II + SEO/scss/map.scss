@@ -1,0 +1,13 @@
+$ancho:(
+    grande:100%,
+    mediano:70%,
+    chico:35%,
+    extraChico:10%,
+);
+@each $medida, $porcentaje in $ancho {
+    .container--#{$medida}{
+        width: $porcentaje;
+        background-color: lightblue;
+        color: red;
+    }
+}
